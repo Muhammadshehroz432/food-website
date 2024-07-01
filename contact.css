@@ -1,0 +1,139 @@
+@font-face {
+    font-family:"logofont";
+    src: url(Cinzel-Bold.ttf) format("truetype");
+  }
+  
+  :root {
+    --web-color: #c8a97e;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  } 
+  /* menu-navbar */
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  .navbar-brand {
+    font-family: "logofont";
+    color: var(--web-color);
+  }
+  .nav-link {
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-link:hover {
+    color: var(--web-color) !important;
+  }
+  
+  .navbar-brand:hover {
+    color: var(--web-color) !important;
+  }
+  .active {
+    color: var(--web-color) !important;
+  }
+  .book-table {
+    background-color: var(--web-color) !important ;
+    color: white !important;
+    border: none !important;
+    transition: all 0.3s ease-out !important;
+  }
+  .book-table:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 2px solid var(--web-color) !important;
+  }
+  .navbar-toggler:focus {
+    border: none;
+    outline: unset;
+    box-shadow: none;
+  }
+  
+  .navigation-wrap.scroll-on {
+    position: fixed;
+    background-color: black !important;
+    color: white !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .navigation-wrap.scroll-on .nav-link:hover .active {
+    color: var(--web-color) !important;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-toggler:focus {
+    outline: unset !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  .menu-banner-wrapper {
+    position: relative;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 2)
+    ); /* Example gradient */
+    z-index: 1;
+    pointer-events: none; /* Allows clicks to pass through to the image */
+  }
+  .menu-banner-wrapper img {
+    width: 100%;
+    height: 28rem;
+    display: block;
+    z-index: 0;
+    object-fit: cover;
+  } 
+  .menu-head1{ 
+     font-family:"logofont"; 
+      font-weight: 900;
+      color: var(--web-color);
+  }  
+  /* contact-form */
+  .contact-from-wrapper{
+    background-color: black !important;
+  }
+  .contact-head{
+    font-family:"logofont"; 
+      font-weight: 900;
+      color: var(--web-color);
+  } 
+  /* footer */
+  .navbar-footer-logo{ 
+    color: var(--web-color);
+    font-family:'logofont' !important; 
+    text-decoration: none !important;
+  } 
+  .open-hours-time{
+    list-style: none;
+  } 
+  .chef-icon { 
+    color: #c8a97e !important;
+    transition: all 0.3s  ease-in-out;
+  
+  }
+  
+  .chef-icon:hover{
+    background-color: var(--web-color) !important;
+    color: white !important; 
+  } 

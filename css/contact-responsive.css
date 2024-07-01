@@ -1,0 +1,45 @@
+/* for mobile */
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+      /* navbar */
+  .navigation-wrap {
+    background-color: black;
+  }
+  .nav-link {
+    color: white;
+  }
+  .navbar-icon {
+    color: white !important;
+  } 
+} 
+/* for tablet  */
+@media only screen and (min-width: 700px) and (max-width: 912px) {
+     /* navbar */
+  .navigation-wrap {
+    background-color: black;
+  }
+  .nav-link {
+    color: white;
+  }
+  .navbar-icon {
+    color: white !important;
+  }
+} 
+/* for laptop */
+@media only screen and  (min-width: 1024px) and (max-width: 1280px) { 
+    .nav-link {
+        color: white;}
+      
+      .navbar-icon {
+        color: white !important;
+      }
+      /* main-menu-section */ 
+      .menu-wrapper{
+        gap: 3.9rem !important;
+    }
+     
+    .menu{
+      font-size:2.4rem;
+    }
+
+}

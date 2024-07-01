@@ -1,0 +1,122 @@
+/* Mobile devices (up to 600px) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  /* top-header */
+  .top-header-wrapper {
+    display: none !important;
+  }
+  /* navbar */
+  .navigation-wrap {
+    background-color: black;
+  }
+  .nav-link {
+    color: white;
+  }
+  .navbar-icon {
+    color: white !important;
+  }
+  /* banner-section */
+  .banner-heading {
+    font-size: 5.2rem;
+  }
+  .carousel-caption {
+    margin-top: 10%;
+  }
+  .banner-menu-img {
+    width: 40%;
+  }
+  /* about-section */
+  .about-head1 {
+    font-size: 4rem;
+  }
+  .about-head2 {
+    font-size:4.2rem;
+  } 
+  /* services section */
+.serviceheader1{
+ font-size: 4.2rem;
+} 
+/* special menu */
+.specailmenu-header1{
+  
+  font-size:2.5rem;
+} 
+/* master-chef-section */
+.masterchefheading1{
+  font-size:3.4rem;
+} 
+/* review-section */
+.review-heading1{
+  font-size:3.4rem; 
+}
+/* blog section */
+.blog-heading1{
+  font-size:3.4rem;
+}
+}
+
+/* Tablets (600px to 900px) */
+@media only screen and (min-width: 700px) and (max-width: 912px) {
+  /* top-header */
+  .top-header-wrapper {
+    display: none !important;
+  }
+  /* navbar */
+  .navigation-wrap {
+    background-color: black;
+  }
+  .nav-link {
+    color: white;
+  }
+  .navbar-icon {
+    color: white !important;
+  }
+  /* banner-section */
+  .banner-heading {
+    font-size: 10rem;
+  }
+  .carousel-caption {
+    margin-top: 8%;
+  }
+  .banner-menu-img {
+    width: 28%;
+  }  
+  .about-head2 {
+    font-size: 5.5rem;
+  } 
+  /* services section */
+.serviceheader1{
+  font-size: 5.5rem;
+ }
+ /* special menu */
+.specailmenu-header1{
+  
+  font-size: 5.5rem;
+} 
+/* master-chef-section */
+.masterchefheading1{
+  font-size: 5.5rem;
+} 
+/* blog section */
+.blog-heading1{
+  font-size: 5.5rem;
+}
+}
+
+/* Laptops (1000px to 1200px) */
+ @media only screen and  (min-width: 1000px) and (max-width: 1024px) { 
+  .nav-link {
+    color: white;}
+  
+  .navbar-icon {
+    color: white !important;
+  }
+
+  .about-head1 {
+    font-size: 4rem;
+  }
+  .about-head2 {
+    font-size:7.8rem;
+  } 
+  /* main-menu-section  */
+  
+}
